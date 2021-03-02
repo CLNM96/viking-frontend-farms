@@ -1887,7 +1887,7 @@
 
 "@pancakeswap-libs/uikit@CLNM96/wasabi-uikit":
   version "0.10.2"
-  resolved "https://codeload.github.com/CLNM96/wasabi-uikit/tar.gz/4dcad3287c571ced61fb96f0d3ac81b7a363a6ea"
+  resolved "https://codeload.github.com/CLNM96/wasabi-uikit/tar.gz/499fc68dd0e52f72e2b2a0bc754580bcb259eb06"
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"
