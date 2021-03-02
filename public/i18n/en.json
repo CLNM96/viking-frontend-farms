@@ -579,7 +579,7 @@
     {
       "data": {
         "stringId": 508,
-        "text": "The project gets the BNB, WASABI Swap burns the WASABI."
+        "text": "The project gets the BNB, WASABI Finance burns the WASABI."
       }
     },
     {
@@ -597,7 +597,7 @@
     {
       "data": {
         "stringId": 514,
-        "text": "Launch your project with WASABI Swap, Binance Smart Chain\u2019s most-used AMM project and liquidity provider, to bring your token directly to the most active and rapidly growing community on BSC."
+        "text": "Launch your project with WASABI Finance, Binance Smart Chain\u2019s most-used AMM project and liquidity provider, to bring your token directly to the most active and rapidly growing community on BSC."
       }
     },
     {
@@ -753,13 +753,13 @@
     {
       "data": {
         "stringId": 576,
-        "text": "WASABI Swap"
+        "text": "WASABI Finance"
       }
     },
     {
       "data": {
         "stringId": 578,
-        "text": "Yield farms for the warriors of Valhalla on BSC!"
+        "text": "A yield farm built on BSC based on WASABI!"
       }
     },
     {
