@@ -30,12 +30,12 @@ const TwitterCard = () => {
     <StyledTwitterCard>
       <CardBody>
         <Heading size="xl" mb="24px">
-          {TranslateString(10003, 'Announcements')}
+          {TranslateString(10003, 'Latest Tweets')}
         </Heading>
         <Timeline
           dataSource={{
             sourceType: 'profile',
-            screenName: 'wasabi_finance'
+            screenName: 'WasabiFinance'
           }}
           options={{
             height: '300',

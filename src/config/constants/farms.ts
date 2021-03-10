@@ -5,15 +5,15 @@ const farms: FarmConfig[] = [
   {
     pid: 0,
     risk: 5,
-    lpSymbol: 'VIKING-BUSD LP',
+    lpSymbol: 'WASABI-BUSD LP',
     lpAddresses: {
       97: '',
       56: '0x9b989a7b8963f4b08ec094710e2966fb3c7f6c43',
     },
-    tokenSymbol: 'VIKING',
+    tokenSymbol: 'WASABI',
     tokenAddresses: {
       97: '',
-      56: '0x896eDE222D3f7f3414e136a2791BDB08AAa25Ce0',
+      56: '0xd083fBDDb8f84EaF1396AD1f622975a65D2c6c78',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -21,15 +21,15 @@ const farms: FarmConfig[] = [
   {
     pid: 1,
     risk: 5,
-    lpSymbol: 'VIKING-BNB LP',
+    lpSymbol: 'WASABI-BNB LP',
     lpAddresses: {
       97: '',
       56: '0xc79173e5f6501d7c1ab2f4e7544b13fc6562ce6a',
     },
-    tokenSymbol: 'VIKING',
+    tokenSymbol: 'WASABI',
     tokenAddresses: {
       97: '',
-      56: '0x896eDE222D3f7f3414e136a2791BDB08AAa25Ce0',
+      56: '0xd083fBDDb8f84EaF1396AD1f622975a65D2c6c78',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
@@ -182,15 +182,15 @@ const farms: FarmConfig[] = [
     pid: 11,
     risk: 5,
     isTokenOnly: true,
-    lpSymbol: 'VIKING',
+    lpSymbol: 'WASABI',
     lpAddresses: {
       97: '',
       56: '0x9b989a7b8963f4b08ec094710e2966fb3c7f6c43', // VIKING-BUSD LP
     },
-    tokenSymbol: 'VIKING',
+    tokenSymbol: 'WASABI',
     tokenAddresses: {
       97: '',
-      56: '0x896eDE222D3f7f3414e136a2791BDB08AAa25Ce0',
+      56: '0xd083fBDDb8f84EaF1396AD1f622975a65D2c6c78',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,

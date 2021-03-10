@@ -26,7 +26,7 @@ const config: MenuEntry[] = [
     href: '/farms',
   },
   {
-    label: 'Armory',
+    label: 'Pools',
     icon: 'PoolIcon',
     href: '/nests',
   },
@@ -54,11 +54,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: "Github",
-        href: "https://github.com/wasabifinance/",
+        href: "https://github.com/clnm96/wasabifinance/",
       },
       {
         label: "Docs",
-        href: "https://wasabifinance.gitbook.io/wasabi-finance/",
+        href: "https://wasabidefi.gitbook.io/wasabi-finance/",
       },
       {
         label: "Blog",
@@ -66,11 +66,11 @@ const config: MenuEntry[] = [
       },
     ],
   },
-  {
-    label: 'Audit by Hacken',
-    icon: 'HelmetIcon',
-    href: 'https://www.vikingswap.finance/files/vikingHackenAudit.pdf',
-  },
+//  {
+//    label: 'Audit by Hacken',
+//    icon: 'HelmetIcon',
+//    href: 'https://wasabi-finance.netlify.app/files/vikingHackenAudit.pdf',
+//  },
 ]
 
 export default config
