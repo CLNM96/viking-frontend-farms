@@ -3,7 +3,7 @@ import { FarmConfig, QuoteToken } from './types'
 
 const farms: FarmConfig[] = [
   {
-    pid: 200,
+    pid: 0,
     risk: 5,
     lpSymbol: 'WASABI-BUSD LP',
     lpAddresses: {
@@ -179,13 +179,13 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wbnb,
   },
   {
-    pid: 0,
+    pid: 11,
     risk: 5,
     isTokenOnly: true,
     lpSymbol: 'WASABI',
     lpAddresses: {
       97: '',
-      56: '0x', // WASABI-BUSD LP
+      56: '0x', // WASABI-BUSD LP
     },
     tokenSymbol: 'WASABI',
     tokenAddresses: {
