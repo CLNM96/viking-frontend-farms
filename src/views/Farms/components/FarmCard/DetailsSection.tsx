@@ -54,9 +54,9 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
         <Text>{TranslateString(316, 'Stake')}:</Text>
         <StyledLinkExternal href={
           isTokenOnly ?
-            `https://exchange.vikingswap.finance/#/swap/${tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
+            `https://wasabi-amm.netlify.app/#/swap/${tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
             :
-            `https://exchange.vikingswap.finance/#/add/${liquidityUrlPathParts}`
+            `https://wasabi-amm.netlify.app/#/add/${liquidityUrlPathParts}`
         }>
           {lpLabel}
         </StyledLinkExternal>
@@ -69,7 +69,7 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
       )}
       <Flex justifyContent="flex-start">
         <Link external href={bscScanAddress} bold={false}>
-          {TranslateString(356, 'View on BscScan')}
+          {TranslateString(356, 'View on BSCScan')}
         </Link>
       </Flex>
     </Wrapper>
