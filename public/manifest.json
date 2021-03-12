@@ -1,7 +1,7 @@
 {
   "short_name": "WasabiFinance",
   "name": "WasabiFinance",
-  "description": "Farm WASABI with VikingSwap LP Tokens",
+  "description": "Farm WASABI with WASABI LP Tokens",
   "icons": [
     {
       "src": "favicon.ico",
